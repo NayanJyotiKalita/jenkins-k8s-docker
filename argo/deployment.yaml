@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: your-dockerhub-user/react-app:latest
+          image: deepaks374/react-app:latest
           ports:
             - containerPort: 80
           resources:
